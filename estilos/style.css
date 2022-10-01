@@ -38,7 +38,7 @@ section#telefone {
     left: 50%;
     top: 50%;
 
-    transform: translate(-60%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 section#social {
@@ -52,14 +52,14 @@ section#social img {
     width: 30px;
     margin-bottom: 15px;
     border-radius: 50%;
-    padding: 2px;
+    padding: 1px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
     
 }
 
 img:hover {
-    background-color: rgba(255, 255, 255, 0.192);
+    background-color: rgba(255, 255, 255, 0.644);
     margin-right: 5px ;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
 }
