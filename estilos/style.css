@@ -35,7 +35,7 @@ section#telefone {
     height: 488px;
     border-radius: 20px 20px 70px 70px;
     
-    left: 50%;
+    left: 40%;
     top: 50%;
 
     transform: translate(-50%, -50%);
