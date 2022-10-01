@@ -17,8 +17,8 @@ main {
     height: 100vh;
 }
 
-iframe {
-    position: absolute;
+iframe#tela {
+    position: relative;
     height: 433px;
     width: 200px;
     border-radius: 15px;
