@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: black;
+}
+
+main {
+    position: relative;
+    background: url(../imagens/fundo.jpg) no-repeat center center ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+iframe {
+    position: absolute;
+    height: 433px;
+    width: 200px;
+    border-radius: 15px;
+
+    left: 42%;
+    top: 10px;
+
+}
+
+section#telefone {
+    position: absolute;
+    background: url(../imagens/frame-galaxyy.jpg) no-repeat;
+    width: 355px;
+    height: 488px;
+    border-radius: 20px 20px 70px 70px;
+    
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-60%, -50%);
+}
+
+section#social {
+    text-align: right;
+    padding: 20vh 10px 0px 0px;
+    
+   
+}
+
+section#social img {
+    width: 30px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+    
+}
+
+img:hover {
+    background-color: rgba(255, 255, 255, 0.192);
+    margin-right: 5px ;
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+}
