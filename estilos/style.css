@@ -15,6 +15,7 @@ main {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    
 }
 
 iframe#tela {
@@ -25,6 +26,7 @@ iframe#tela {
 
     left: 42%;
     top: 10px;
+    
 
 }
 
@@ -34,6 +36,7 @@ section#telefone {
     width: 355px;
     height: 488px;
     border-radius: 20px 20px 70px 70px;
+   
     
     left: 40%;
     top: 50%;
